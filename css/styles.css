@@ -375,7 +375,6 @@ img {
   border: 1px solid var(--pressed-ocean-color);
   color: var(--pressed-ocean-color);
 }
-
 .footer-sect {
   background-color: var(--primary-dark-color);
   padding: 100px 0;
@@ -495,8 +494,8 @@ img {
   background-color: var(--pressed-ocean-color);
   border: none;
 }
-.icon-close-btn:hover,
-.icon-close-btn:focus {
+.close-btn:hover .icon-close-btn,
+.close-btn:focus .icon-close-btn {
   fill: var(--primary-white-color);
 }
 .examples {
